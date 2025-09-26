@@ -1,0 +1,100 @@
+/* customização dos cubos */
+.cubo {
+    width: 50px;
+    height: 50px;
+    background-color: #bb114a;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+ }
+
+
+
+.linha-1, .linha-2, .linha-3, .linha-4, .linha-5, 
+.linha-6, .linha-7, .linha-8, .linha-9, .linha-10, .footer {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.linha-1 {
+    justify-content: flex-start;
+    align-items: center;
+}
+.linha-2 {
+    justify-content: center;
+    align-items: flex-start;
+}
+.linha-3 {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.linha-4 {
+    justify-content: space-between;
+    align-items: center;
+}
+.linha-5 {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.linha-6 {
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.linha-7 {
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.linha-8 {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.linha-9 {
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.linha-10 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.footer{
+    color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
